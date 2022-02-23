@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+        }
+
+        /* nav */
+        .nav {
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .right {
+            float: right;
+            text-align: center;
+
+
+        }
+
+        .right a {
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 12px;
+            font-family: cursive;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: black;
+            background-color: whitesmoke;
+        }
+
+        .logo {
+            margin-left: 20px;
+        }
+
+        /* cv */
+        .container {
+            width: 70%;
+            overflow: hidden;
+            background-color: whitesmoke;
+            margin-left: 130px;
+            height: 850px;
+            border-radius: 10px;
+            padding: 5px;
+
+        }
+
+        .hed {
+            text-align: center;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* key frames */
+        .language {
+           
+            display: flex;
+            flex-direction: row;
+        }
+
+        .urdu {
+            
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .operater {
+         
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .html {
+           
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .css {
+         
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .typing {
+      
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        /* animation */
+        .e {
+            background-color: blue;
+            width: 270px;
+            float: left;
+            margin-left: 210px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            border-radius: 8px;
+               /* animation */
+               animation-name: english;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function:ease-out;
+
+        }
+        @keyframes english{
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 270px;
+            }
+        }
+     
+       /* urdu */
+
+        .u {
+            background-color: blue;
+            width: 330px;
+            float: left;
+            margin-left: 230px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            border-radius: 8px;
+               /* animation */
+               animation-name: urdu;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function:ease-out;
+
+        }
+        @keyframes urdu{
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 330px;
+            }
+        }
+
+/* computer operater */
+    
+        .co {
+            background-color: blue;
+            width: 50%;
+            float: left;
+            margin-left: 110px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            border-radius: 8px;
+               /* animation */
+               animation-name: operater;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function:ease-out;
+
+        }
+        @keyframes operater{
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 50%;
+            }
+        }
+        
+
+/* html */
+
+        .h {
+            background-color: blue;
+            width: 290px;
+            float: left;
+            margin-left: 230px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            border-radius: 8px;
+               /* animation */
+               animation-name: html;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function:ease-out;
+
+        }
+        @keyframes html{
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 290px;
+            }
+        }
+        
+/* css */
+
+
+        .c {
+            background-color: blue;
+            width: 130px;
+            float: left;
+            margin-left: 240px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            border-radius: 8px;
+               /* animation */
+               animation-name: css;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function:ease-out;
+
+        }
+        @keyframes css{
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 130px;
+            }
+        }
+        
+/* typing skills */
+
+
+
+        .t {
+            background-color: blue;
+            width: 320px;
+            float: left;
+            margin-left: 165px;
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            border-radius: 8px;
+               /* animation */
+               animation-name: skills;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-timing-function:ease-out;
+
+        }
+        @keyframes skills{
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 320px;
+            }
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- nav -->
+    <header>
+        <div class="nav">
+            <img class="logo"
+                src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9nbyUyMGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+                alt="logo" width="50px">
+            <div class="right">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Services</a>
+                <a href="">Protfolio</a>
+                <a href="">Contact us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- cv -->
+    <div class="container">
+        <h2 class="hed">CV
+            <br>
+            Waseem Memon
+        </h2>
+        <br>
+        <br>
+
+        <div class="data">
+            Name: &nbsp;&nbsp;Wasee Memon
+
+            <br>
+            <br>
+            Father name:
+            &nbsp;&nbsp;
+            M.Ashraf
+            <br>
+            <br>
+            Qualification: &nbsp;&nbsp;matric A1 Grade , Inter commerce continue , Diploma in Higher Software
+            Engineering
+            <br>
+            <br>
+            Previous Works: &nbsp;&nbsp;Network Marketing , Call Center Agent , Mobile Hardwrae Enginer
+            <br>
+            <br>
+            Current Work: &nbsp;&nbsp; As a Mobile Software Enginner At Mobile Repair Shop
+        </div>
+
+
+        <h2 class="hed">Skills</h2>
+        <div class="language">
+            <div>
+                <h3> English:-</h3>
+            </div>
+            <div class="e">
+                <p>80%</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="urdu">
+            <div>
+                <h3>Urdu:-</h3>
+            </div>
+            <div class="u">
+                <p>90%</p>
+
+            </div>
+        </div>
+        <br>
+
+        <div class="operater">
+            <h3> Computer Operater:-</h3>
+            <div class="co">
+                <p>100%</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="html">
+            <h3> Html:-</h3>
+            <div class="h">
+                <p>82%</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="css">
+            <h3> Css:- </h3>
+            <div class="c">
+                <p>40%</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="typing">
+            <h3>Typing Skills:-</h3>
+            <div class="t">
+                <p>85%</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
